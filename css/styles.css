@@ -1,0 +1,141 @@
+.main-page {
+    font-family: sans-serif;
+    background: black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header-left {
+    display: flex;
+}
+
+.programmer-logo {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    background: #EDFFFA;
+}
+
+.header-title {
+    margin-top: 10px;
+    color: #edfffa
+}
+
+.menu-image {
+    margin-right: 10px;
+    margin-top: 10px;
+    height: 20px;
+}
+
+.blog {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.other-buttons {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: transparent;
+    color: #edfffa;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.default-button {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: #edfffa;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    background: linear-gradient(94.04deg, #7934DA 0%, #4D52E0 101.2%);;
+}
+
+.nav-menu button:hover {
+    background: linear-gradient(94.04deg, #7934DA 0%, #4D52E0 101.2%);
+    cursor: pointer;
+}
+
+
+.posts {
+    display: flex;
+    margin-top: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-post1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.author-info {
+    display: flex;
+}
+
+.elephant-image {
+    width: 300px;
+    border-radius: 20px;
+}
+
+.post-heading {
+    color: #edfffa;
+}
+
+.post-body {
+    color: #cdd7ff;
+}
+
+.author-image {
+    margin-top: 20px;
+    width: 40px;
+    border-radius: 50%;
+    border: cyan solid 1px;
+}
+
+.author-date {
+    color: #cdd7ff;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.link-to-post {
+    color: #5683ff;
+    text-align: center;
+}
+
+.footer {
+    color: #edfffa;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-line {
+    opacity: 0.5;
+    margin: 50px 0;
+}
+
+.footer-title{
+    padding: 10px 10px ;
+}
+
+.footer-options{
+    padding-left: 10px;
+    color: grey;
+}
